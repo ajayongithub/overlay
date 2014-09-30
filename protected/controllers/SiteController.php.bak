@@ -49,7 +49,7 @@ class SiteController extends Controller
 		if(strcmp('Studio',$type)==0){
 			echo 'Studio' ;
 		}else {
-			$this->redirect(Yii::app()->createUrl(Yii::app()->params['videoBaseUrl']));
+			echo 'Video Point' ;
 		}
 	}	
 	

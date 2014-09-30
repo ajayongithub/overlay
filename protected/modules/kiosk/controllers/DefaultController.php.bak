@@ -7,11 +7,6 @@ class DefaultController extends Controller
 		$this->layout="//layouts/empty";
 		$this->render('index');
 	}
-	public function actionIndex1()
-	{
-		$this->layout="//layouts/empty";
-		$this->render('index1');
-	}
 	public function actionStoreData(){
 		
 		if(isset($_POST['response'])){

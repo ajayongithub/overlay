@@ -7,7 +7,7 @@ Yii::setPathOfAlias('bootstrap',dirname(__FILE__).'/../extensions/yii-bootstrap-
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Heros Wanted',
+	'name'=>'Who wants to be an action star',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -145,14 +145,8 @@ return array(
 		'adminEmail'=>'webmaster@example.com',
 		'configureUrl'=>'/site/configure',
 		'kioskBaseUrl'=>'kiosk/default',
-		'videoBaseUrl'=>'videoPoint/default',
+		'videoBaseUrl'=>'user/login',
 		'studioBaseUrl'=>'user/login',
 		'loginUrl'=>'user/login',
-		'remoteHost'=>'localhost',
-		'remoteUser'=>'test',
-		'remotePwd'=>'test123',
-		'uploadDir'=>'uploads',
-		'downloadDir'=>'downloads',
-		
 	),
 );

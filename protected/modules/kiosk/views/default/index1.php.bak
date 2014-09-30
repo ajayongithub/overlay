@@ -4,12 +4,6 @@
 <meta charset="ISO-8859-1">
         <title>Kiosk Page</title>
 <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
-<style>
-body {
-    background-image: url('/images/sample.jpg')`;
-} 
-
-</style>
 </head>
 <body>
 <script>
